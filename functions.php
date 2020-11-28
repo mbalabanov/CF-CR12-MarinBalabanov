@@ -151,6 +151,11 @@ function cr12_marinbalabanov_traveler_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'cr12_marinbalabanov_traveler_scripts' );
 
+function set_excerpt_length(){
+	return 25; //the number of words you want displayed
+}
+add_filter('excerpt_length','set_excerpt_length');
+
 /**
  * Implement the Custom Header feature.
  */

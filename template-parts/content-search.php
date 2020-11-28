@@ -14,7 +14,7 @@
 		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 
 		<?php if ( 'post' === get_post_type() ) : ?>
-		<div class="entry-meta">
+		<div class="entry-meta search-result">
 			<?php
 			cr12_marinbalabanov_traveler_posted_on();
 			cr12_marinbalabanov_traveler_posted_by();
