@@ -45,20 +45,98 @@
   
   /* Main Site Content
   --------------------------------------------- */
-  
-  main {
+
+  .site-main {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 2rem;
     margin-right: auto;
     margin-left: auto;
   }
-  
-  .site-main {
-    border: red 1px solid;
-    padding: 2rem;
+
+  .post-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .post-col {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .entry-title, .entry-title a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 100;
+    color: gray;
+    font-kerning: normal;
+    text-align: center;
+  }
+
+  .entry-title a {
+    text-decoration: none;
+    color: gray;
+  }
+
+  .entry-title:after {
+    content: ""; 
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 20px;
+    border-bottom: 1px solid gray;
+  }
+
+  .entry-meta {
+    margin: 0;
+  }
+
+  .posted-on a {
+    color: gray;
+    text-decoration: none;
   }
   
+  .post-thumbnail {
+    text-align: center;
+  }
+
+  @media only screen and (min-width: 576px) {
+    .site-main {
+      max-width: 540px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .site-main {
+      max-width: 720px;
+    }
+    .post-col {
+      -ms-flex: 0 0 33.333333%;
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%;
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+    .site-main {
+      max-width: 960px;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .site-main {
+      max-width: 1140px;
+    }
+  }
+
+
+  
+
   /* Footer
   --------------------------------------------- */
   .site-footer {

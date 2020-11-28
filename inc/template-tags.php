@@ -27,7 +27,7 @@ if ( ! function_exists( 'cr12_marinbalabanov_traveler_posted_on' ) ) :
 
 		$posted_on = sprintf(
 			/* translators: %s: post date. */
-			esc_html_x( 'Posted on %s', 'post date', 'cr12_marinbalabanov_traveler' ),
+			esc_html_x( '%s', 'post date', 'cr12_marinbalabanov_traveler' ),
 			'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
 		);
 
