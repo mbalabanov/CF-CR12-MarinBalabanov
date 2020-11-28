@@ -1,0 +1,74 @@
+/*--------------------------------------------------------------
+# Custom Mount Everest Styles
+--------------------------------------------------------------*/
+/* Site Branding
+--------------------------------------------- */
+.site-branding {
+    padding: 2rem;
+    border-bottom: solid 1px gray;
+  }
+  
+  .site-title, .site-description {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .site-title a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 100;
+    color: gray;
+    font-size: xx-large;
+    font-kerning: normal;
+  }
+  
+  /* Navigation
+  --------------------------------------------- */
+  .main-navigation {
+    padding: 1rem;
+    background-color: black;
+  }
+
+  .nav-menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  .page_item a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: x-small;
+    margin-right: 1rem;
+   
+  }
+  
+  /* Main Site Content
+  --------------------------------------------- */
+  
+  main {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .site-main {
+    border: red 1px solid;
+    padding: 2rem;
+  }
+  
+  /* Footer
+  --------------------------------------------- */
+  .site-footer {
+    padding: 1rem;
+    background-color: black;
+    text-align: center;
+  }
+  
+  .site-info, .site-info a {
+    color: gray;
+    text-decoration: none;
+    font-size: x-small;
+  }
