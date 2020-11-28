@@ -5,7 +5,7 @@
 --------------------------------------------- */
 .site-branding {
     padding: 2rem;
-    border-bottom: solid 1px gray;
+    border-bottom: solid 1px lightgray;
   }
   
   .site-title, .site-description {
@@ -29,20 +29,39 @@
     background-color: black;
   }
 
-  .nav-menu {
+  .menu {
     display: flex;
     justify-content: center;
   }
 
-  .page_item a {
+  .menu-item, .menu-item a {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
     font-size: x-small;
     margin-right: 1rem;
-   
+  }
+
+  ul.sub-menu {
+    background-color: black;
+    border: 1px white solid;
+    width: 160px;
+  }
+
+  ul.sub-menu li {
+    padding: 0.8rem;
+    margin: 0;
+    border-bottom: white solid 1px;
   }
   
+  ul.sub-menu a:hover {
+    color: gray;
+  }
+
+  .menu-item-has-children ul {
+    display: block;
+  }
+
   /* Main Site Content
   --------------------------------------------- */
 
@@ -69,6 +88,47 @@
     padding-left: 15px;
   }
 
+  .page-wide-col {
+    padding: 0;
+  }
+
+  .page-side-col {
+    padding: 4rem 0;
+    border-top: 1px solid lightgray;
+    border-left: none;
+  }
+
+  .categoryname {
+    text-transform: uppercase;
+    font-weight: 100;
+    color: lightgray;
+    font-kerning: normal;
+    text-align: center;
+    font-size: smaller;
+    padding: 0;
+    margin: 0;
+  }
+
+  .category-title {
+    margin: 1rem;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid lightgray;
+  }
+
+  .page-title {
+    text-transform: uppercase;
+    font-weight: 100;
+    color: black;
+    font-kerning: normal;
+    font-size: x-large;
+  }
+
+  .page-title span {
+    font-weight: 400;
+  }
+
   .entry-title, .entry-title a {
     text-transform: uppercase;
     text-decoration: none;
@@ -76,6 +136,7 @@
     color: gray;
     font-kerning: normal;
     text-align: center;
+    margin-top: 0;
   }
 
   .entry-title a {
@@ -87,9 +148,9 @@
     content: ""; 
     display: block;
     margin: 0 auto;
-    width: 50%;
-    padding-top: 20px;
-    border-bottom: 1px solid gray;
+    width: 30%;
+    padding-top: 10px;
+    border-bottom: 1px solid lightgray;
   }
 
   .entry-meta {
@@ -120,6 +181,21 @@
       flex: 0 0 33.333333%;
       max-width: 33.333333%;
     }
+    .page-wide-col {
+      -ms-flex: 0 0 70%;
+      flex: 0 0 70%;
+      max-width: 70%;
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+    .page-side-col {
+      -ms-flex: 0 0 30%;
+      flex: 0 0 30%;
+      max-width: 30%;
+      border-top: none;
+      border-left: 1px solid lightgray;
+      padding: 1rem 1rem 1rem 2rem;
+    }
   }
 
   @media only screen and (min-width: 992px) {
@@ -135,7 +211,50 @@
   }
 
 
-  
+
+  /* Sidebar Elements
+  --------------------------------------------- */
+  .widget-title {
+    text-transform: uppercase;
+    font-weight: 100;
+    color: gray;
+    font-kerning: normal;
+    font-size: medium;
+  }
+
+  .widget ul, .widget ol {
+    margin: 0 0 0 -1.2rem;
+  }
+
+  .widget ul a {
+    text-decoration: none;
+  }
+
+  .widget ul a:link, .widget ul a:visited {
+    color: gray;
+  }
+
+  .widget ul a:hover, .widget ul a:active {
+    color: black;
+  }
+
+  input[type=submit] {
+    font-size: smaller;
+    color: white;
+    background-color: gray;
+    border-color: gray;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.2rem 0.4rem 0.4rem 0.4rem;
+  }
+
+  input[type=submit]:hover {
+    background-color: black;
+    border-color: black;
+  }
 
   /* Footer
   --------------------------------------------- */

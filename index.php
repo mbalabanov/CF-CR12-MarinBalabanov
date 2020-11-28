@@ -15,7 +15,7 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main aligncenter">
+	<main id="primary" class="site-main">
 
 		<div class="post-row">
 			
@@ -44,17 +44,16 @@ get_header();
 						get_template_part( 'template-parts/content', get_post_type() );
 						?>
 						</div> <!-- End Post Col -->
-		<?php
+				<?php
 					endwhile;
 
 					the_posts_navigation();
 
-				else :
-
-					get_template_part( 'template-parts/content', 'none' );
+					else:
+						get_template_part( 'template-parts/content', 'none' );
 					?>
 					</div>
-	<?php
+				<?php
 
 				endif;
 				?>
