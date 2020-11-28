@@ -13,6 +13,7 @@
 
 </div><!-- #page -->
 
+<img src="<?php echo get_template_directory_uri(); ?>/img/footer-collage.jpg" alt="Collage of Travels" id="footer-collage" width="100%">
 <footer id="colophon" class="site-footer">
 	<div class="site-info">
 		<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'cr12_marinbalabanov_traveler' ) ); ?>">

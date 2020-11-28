@@ -148,12 +148,28 @@
     border: 1px solid lightgray;
   }
 
-  .page-title, .comment-reply-title {
+  .page-title, .comment-reply-title, .comments-title {
     text-transform: uppercase;
     font-weight: 100;
     color: black;
     font-kerning: normal;
     font-size: x-large;
+  }
+
+  .comments-area {
+    border-top: 1px lightgray solid;
+    padding-top: 1rem;
+    margin-top: 1rem;
+  }
+
+  .comment-list {
+    margin: 0;
+  }
+
+  .comment-body {
+    background-color: WhiteSmoke;
+    padding: 1rem;
+    margin-bottom: 1rem;
   }
 
   .comment-reply-title {
@@ -306,13 +322,17 @@
     color: black;
   }
 
-  .cat-links a:link, .cat-links a:visited, .comments-link a:link, .comments-link a:visited, .edit-link a:link, .edit-link a:visited {
+  .comments-area a, .logged-in-as a:link, .logged-in-as a:visited, .cat-links a:link, .cat-links a:visited, .comments-link a:link, .comments-link a:visited, .edit-link a:link, .edit-link a:visited {
     text-decoration: none;
     color: gray;
     margin-right: 1rem;
   }
 
-  .cat-links a:hover, .cat-links a:active, .comments-link a:hover, .comments-link a:active, .edit-link a:hover, .edit-link a:active {
+  .logged-in-as a:link, .logged-in-as a:visited {
+    margin-right: 0;
+  }
+
+  .logged-in-as a:hover, .logged-in-as a:active, .cat-links a:hover, .cat-links a:active, .comments-link a:hover, .comments-link a:active, .edit-link a:hover, .edit-link a:active {
     color: black;
   }
 
@@ -346,4 +366,8 @@
     color: gray;
     text-decoration: none;
     font-size: x-small;
+  }
+
+  #footer-collage {
+    margin-bottom: -10px;
   }
