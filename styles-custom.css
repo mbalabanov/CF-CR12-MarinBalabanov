@@ -119,6 +119,13 @@
     padding-left: 15px;
   }
 
+  .post-col-50 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
   .page-wide-col {
     padding: 0;
   }
@@ -256,6 +263,11 @@
       -ms-flex: 0 0 33.333333%;
       flex: 0 0 33.333333%;
       max-width: 33.333333%;
+    }
+    .post-col-50 {
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
     }
     .page-wide-col {
       -ms-flex: 0 0 70%;
