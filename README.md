@@ -1,5 +1,4 @@
 # Code Review 12
-### Delivered by MarinBalabanov
 
 ## Description
 This is a __WordPress theme__ for a travel agency as an exercise for CodeFactory. The underlying structure is based on the model theme available on https://underscore.me
