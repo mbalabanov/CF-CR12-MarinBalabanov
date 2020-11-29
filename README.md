@@ -2,7 +2,7 @@
 ### Delivered by MarinBalabanov
 
 ## Description
-This is a WordPress theme for a travel agency as an exercise for CodeFactory. The underlying structure is based on the model theme available on underscore.me.
+This is a WordPress theme for a travel agency as an exercise for CodeFactory. The underlying structure is based on the model theme available on https://underscore.me
 
 The design is based on the requirements defined by CodeFactory in Code Review 12. The initial design was created using Bootstrap and can be found here as flat HTML https://github.com/mbalabanov/CF-CR12-MarinBalabanov/tree/main/boostrap-model
 
