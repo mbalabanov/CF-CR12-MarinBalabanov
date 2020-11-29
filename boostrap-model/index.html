@@ -13,6 +13,10 @@
             color: gray;
             font-kerning: normal;
         }
+        h1 a {
+            text-decoration: none;
+            color: gray;
+        }
         .nav-link, .dropdown-item, .footer-text {
             font-size: smaller;
         }
@@ -23,6 +27,10 @@
         .category-title, .post-title {
             text-align: center;
         }
+        .sidebar  {
+            font-size: medium;
+            text-align: left;
+        }
         .category-title a, .post-title a {
             text-decoration: none;
             color: gray;
@@ -32,6 +40,17 @@
         }
         .post-title {
             font-size: x-large;
+        }
+        aside {
+            border-left: solid lightgray 1px;
+        }
+        aside ul li a:link, aside ul li a:visited {
+            text-decoration: none;
+            color: gray;
+        }
+        aside ul li a:hover, aside ul li a:active {
+            text-decoration: none;
+            color: black;
         }
     </style>
 
@@ -71,7 +90,7 @@
     </nav>
 
     <div class="container-fluid bg-white text-center p-5 border-bottom">
-        <h1>Mount Everest</h1>
+        <h1><a href="index.html">Mount Everest</a></h1>
         <p>Live. Laugh. Explore.</p>
     </div>
 

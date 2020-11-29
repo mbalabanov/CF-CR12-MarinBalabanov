@@ -13,6 +13,10 @@
             color: gray;
             font-kerning: normal;
         }
+        h1 a {
+            text-decoration: none;
+            color: gray;
+        }
         .nav-link, .dropdown-item, .footer-text {
             font-size: smaller;
         }
@@ -39,6 +43,14 @@
         }
         aside {
             border-left: solid lightgray 1px;
+        }
+        aside ul li a:link, aside ul li a:visited {
+            text-decoration: none;
+            color: gray;
+        }
+        aside ul li a:hover, aside ul li a:active {
+            text-decoration: none;
+            color: black;
         }
     </style>
 
@@ -78,7 +90,7 @@
     </nav>
 
     <div class="container-fluid bg-white text-center p-5 border-bottom">
-        <h1>Mount Everest</h1>
+        <h1><a href="index.html">Mount Everest</a></h1>
         <p>Live. Laugh. Explore.</p>
     </div>
 
@@ -118,21 +130,21 @@
                 </form>
                 <h3 class="category-title sidebar">Recent Posts</h3>
                 <ul>
-                    <li>Lorem ipsum dolor sit amet, consectetuer</li>
-                    <li>Cum sociis natoque penatibus et magnis dis parturient</li>
-                    <li>Vivamus elementum semper nisi</li>
+                    <li><a href="#">Lorem ipsum dolor sit amet, consectetuer</a></li>
+                    <li><a href="#">Cum sociis natoque penatibus et magnis dis parturient</a></li>
+                    <li><a href="#">Vivamus elementum semper nisi</a></li>
                 </ul>
                 <h3 class="category-title sidebar">Recent Comments</h3>
                 <ul>
-                    <li>Etiam sit amet orci eget eros faucibus tincidunt</li>
-                    <li>Aenean ut eros et nisl sagittis vestibulum</li>
-                    <li>Curabitur ligula sapien</li>
+                    <li><a href="#">Etiam sit amet orci eget eros faucibus tincidunt</a></li>
+                    <li><a href="#">Aenean ut eros et nisl sagittis vestibulum</a></li>
+                    <li><a href="#">Curabitur ligula sapien</a></li>
                 </ul>
                 <h3 class="category-title sidebar">Categories</h3>
                 <ul>
-                    <li>Eastern Europe</li>
-                    <li>Western Europe</li>
-                    <li>Scandinavia</li>
+                    <li><a href="#">Eastern Europe</a></li>
+                    <li><a href="#">Western Europe</a></li>
+                    <li><a href="#">Scandinavia</a></li>
                 </ul>
             </aside>
         </div>
