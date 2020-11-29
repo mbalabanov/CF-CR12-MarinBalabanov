@@ -16,16 +16,26 @@ The whole theme is available as a ZIP file here: https://github.com/mbalabanov/C
 Download the ZIP file and uncompress it into the WordPress themes folder. Then select and activate the theme in the appearance menu.
 
 ## Structure
-- __index.php:__ This is the site's main design. It can be used for the grid of blog posts.
 - __front-page.php:__ The custom front page overrides the _index.php_ for home. In its core it has the same grid of blog posts, but it also has a large header and the sidebar aligned horizontally beneath the grid.
+
+__Screenshot of Custom Frontpage__
+![Custom Front Page](img/front.png)
+
+- __index.php:__ This is the site's main design. It can be used for the grid of blog posts.
+- __archive.php:__ This has the same appearance as _index.php_ but includes the category title above the grid of blog posts.
+
+__Screenshots of Index and Archive Pages__
+![Custom Front Page](img/index-category.png)
+
 - __single.php:__ This file defines the appearance and layout of individual blog posts. The main content area for the article is 70% wide, leaving 30% for the sidebar with the widgets. The area beneath the article is occupied by the comments and the form for new comments. It includes _template-parts/content.php_ and _comments.php_
 
+__Screenshot of Single Post__
 ![Post](img/post.png)
 
 - __page.php:__ This is the template used for pages that are not blog posts. It is adapted from _single.php_.  It includes _template-parts/content-page.php_
-- __archive.php:__ This has the same appearance as _index.php_ but includes the category title above the grid of blog posts.
 - __search.php__ and __404.php:__ These two administrative pages have a similar design to _single.php_. The search page uses includes _template-parts/content-search.php_
 
+__Screenshot of Page, Search and 404__
 ![Page, search and 404](img/page-search-404.png)
 
 - __/template-parts__, __/inc__ and __/js:__ These directories include the PHP components that are included on other pages. The _/js_ directory provides the functionality for the naviation.
