@@ -112,18 +112,16 @@
     margin-left: -15px;
   }
 
-  .post-col {
+  .post-col, .post-col-50, .post-col-25 aside section  {
     position: relative;
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
   }
 
-  .post-col-50 {
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+  .post-col-25  {
+    border-top: 1px lightgray solid;
+    padding-top: 2rem;
   }
 
   .page-wide-col {
@@ -268,6 +266,15 @@
       -ms-flex: 0 0 50%;
       flex: 0 0 50%;
       max-width: 50%;
+    }
+    .post-col-25 aside section {
+      -ms-flex: 0 0 25%;
+      flex: 0 0 25%;
+      max-width: 25%;
+      padding: 1rem;
+    }
+    .search-field {
+      margin-top: 1rem;
     }
     .page-wide-col {
       -ms-flex: 0 0 70%;
