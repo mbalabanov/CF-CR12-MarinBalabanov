@@ -37,7 +37,7 @@
 				)
 			);
 			?>
-		</nav><!-- #site-navigation -->
+		</nav>
 
 		<div class="site-branding">
 			<?php
@@ -56,5 +56,5 @@
 				?>
 				<p class="site-description"><?php echo $cr12_marinbalabanov_traveler_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
 			<?php endif; ?>
-		</div><!-- .site-branding -->
-	</header><!-- #masthead -->
+		</div>
+	</header>

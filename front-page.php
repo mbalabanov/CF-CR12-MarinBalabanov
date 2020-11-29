@@ -31,7 +31,6 @@ get_header();
                     <?php
                 endif;
 
-                /* Start the Loop */
                 while ( have_posts() ) :
                     ?>
                 <div class="post-col">
@@ -39,7 +38,7 @@ get_header();
                         the_post();
                         get_template_part( 'template-parts/content', get_post_type() );
                     ?>
-                </div> <!-- End Post Col -->
+                </div>
             <?php
                 endwhile;
 
@@ -50,7 +49,7 @@ get_header();
             ?>
             <?php endif; ?>
 
-        </div> <!-- End Post Row -->
+        </div>
 
         <div class="post-row">
             <div class="post-col-25">
