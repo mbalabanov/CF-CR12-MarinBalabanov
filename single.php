@@ -26,18 +26,17 @@ get_header();
 						)
 					);
 
-					// If comments are open or we have at least one comment, load up the comment template.
 					if ( comments_open() || get_comments_number() ) :
 						comments_template();
 					endif;
 
-				endwhile; // End of the loop.
+				endwhile;
 				?>
 			</div>
 			<div class="page-side-col">
 				<?php get_sidebar(); ?>
 			</div>
 		</div>
-	</main><!-- #main -->
+	</main>
 
 <?php get_footer(); ?>
