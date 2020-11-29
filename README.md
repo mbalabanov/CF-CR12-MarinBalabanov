@@ -24,3 +24,4 @@ Download the ZIP file and uncompress it into the WordPress themes folder. Then s
 - __search.php__ and __404.php:__ These two administrative pages have a similar design to _single.php_. The search page uses includes _template-parts/content-search.php_
 - __/template-parts__, __/inc__ and __/js:__ These directories include the PHP components that are included on other pages. The _/js_ directory provides the functionality for the naviation.
 - __/sass:__ This directory contains all the original SASS files from the underscore.me theme. They were compiled into _style.css_. The additional styles in this theme are defined in _styles-custom.css_.
+- __UNDERSCORES-README.md:__ This is the original readme file provided by underscore.me.
