@@ -3,6 +3,8 @@
 ## Description
 This is a __WordPress theme__ for a travel agency as an exercise for CodeFactory. The underlying structure is based on the model theme available on https://underscore.me You can find a working example of this theme here: http://ptstest.com/cr12/ 
 
+Please find a short video presenting the WP template here: https://youtu.be/mybtWM68FyY
+
 The design is based on the requirements defined by CodeFactory in Code Review 12. The initial design was created using __Bootstrap__ and can be found here as flat HTML https://github.com/mbalabanov/CF-CR12-MarinBalabanov/tree/main/boostrap-model
 
 <kbd>![Screenshot](screenshot.png)</kbd>
