@@ -1,4 +1,4 @@
-# Code Review 12
+# Code Review 12: Mount Everest WordPress Theme
 
 ## Description
 This is a __WordPress theme__ for a travel agency as an exercise for CodeFactory. The underlying structure is based on the model theme available on https://underscore.me You can find a working example of this theme here: http://ptstest.com/cr12/ 
