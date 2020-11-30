@@ -33,7 +33,7 @@ __Screenshot of Single Post (top and bottom sections)__
 ![Post](img/post.png)
 
 - __page.php:__ This is the template used for pages that are not blog posts. It is adapted from _single.php_.  It includes _template-parts/content-page.php_ __(Example: http://ptstest.com/cr12/?page_id=22 )__
-- __search.php__ and __404.php:__ These two administrative pages have a similar design to _single.php_. The search page uses includes _template-parts/content-search.php_
+- __search.php__ and __404.php:__ These two administrative pages have a similar design to _single.php_. The search page uses includes _template-parts/content-search.php_ __(Examples: Search Results http://ptstest.com/cr12/?s= and 404 Page http://ptstest.com/cr12/?page_id=23 )__
 
 __Screenshot of Page (left), Search (center) and 404 (right)__
 ![Page, search and 404](img/page-search-404.png)
