@@ -34,7 +34,7 @@
     justify-content: center;
   }
 
-  .menu-item, .menu-item a {
+  .menu-item, .menu-item a, .page_item a {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
@@ -42,7 +42,7 @@
     margin: 0.2rem 1rem 0.2rem 0;
   }
 
-  .menu-item a:hover, .menu-item a:active {
+  .menu-item a:hover, .menu-item a:active .page_item a:hover, .page_item a:active {
     color: gray;
   }
 
