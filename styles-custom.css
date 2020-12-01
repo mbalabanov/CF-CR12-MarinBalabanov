@@ -46,6 +46,11 @@
     color: gray;
   }
 
+  .current_page_item a {
+    font-weight: 200;
+    color: gray;
+  }
+
   ul.sub-menu {
     background-color: black;
     border: 1px white solid;
